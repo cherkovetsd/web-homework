@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <link href="outlines.css" rel="stylesheet">
+    <!--<link href="outlines.css" rel="stylesheet">-->
     <meta name="keywords" content="о себе, визитная карточка, йошикаге кира">
     <meta name="description" content="Визитная карточка Йошикаге Киры">
     <title>Йошикаге Кира</title>
@@ -11,11 +11,16 @@
   <body>
     <header>
       <h1> Личная страница Йошикаге Киры </h1>
-      <nav> Обо мне, Здоровье и привычки, Код моего стэнда, Котик</nav>
+      <nav> Навигация:
+        <a href="#personal_info"> Обо мне</a>,
+        <a href="#lifestyle"> Здоровье и привычки </a>,
+        <a href="#code"> Код моего стэнда</a>,
+        <a href="#cat"> Котик </a>
+      </nav>
     </header>
     <main>
       <section>
-        <h2> Обо мне: </h2>
+        <h2 id="personal_info"> Обо мне: </h2>
         <ul>
           <li> Меня зовут Кира Йошикаге </li>
           <li> Мне 33 года </li>
@@ -26,7 +31,7 @@
       </section>
       <aside> <i> Мой любимый модный бренд - Gianfranco Ferré </i> </aside>
       <section>
-        <h2> Здоровье и привычки: </h2>
+        <h2 id="lifestyle"> Здоровье и привычки: </h2>
         <ul>
           <li> Я прихожу домой не позднее 8 вечера </li>
           <li> Я не курю, но иногда выпиваю </li>
@@ -43,14 +48,13 @@
         </p>
       </section>
       <aside>
-
         <p>
           <sup> <q> Завтрашний день принадлежит тем, кто чувствует его наступление </q> - <cite> Дэвид Боуи </cite> </sup>
           <br> <i> Многие считают меня внешни схожим с Дэвидом Боуи </i>
         </p>
       </aside>
       <article>
-        <h3> Код моего Sheer Heart Attack: </h3>
+        <h3 id="code"> Код моего Sheer Heart Attack: </h3>
         <code>
           enemyLocation = findHeatSource(); <br>
           rotate(enemyLocation); <br>
@@ -59,7 +63,7 @@
         </code>
       </article>
       <article>
-        <h3> Мой любимый котик: </h3>
+        <h3 id="cat"> Мой любимый котик: </h3>
         <pre>
 ▓▓▒▒▒▒▒▒▒░░░▒▒▒▒▒▒▒▒▒▒▒░░▒▒▒▒▒░▒░▒▒▒░░░░░░░░▒░░▒▒▓
 ▓▓▓▒▒▒▒▒░▓▓░░▒▒▒▒▒▒▒▒▒▒░▒▒▒▒▒░░░░░░░░░░░▓▓▒░▒░▒░░░
