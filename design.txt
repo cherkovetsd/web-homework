@@ -7,11 +7,11 @@ aside: Мой любимый модный бренд - Gianfranco Ferré
 
 section: мои привычки и здоровье
 список без порядка
+paragraph: моё кредо
 
-цитата:
+aside: цитата Дэвида Боуи и примечание о внешнем сходстве:
 
 article: код Sheer Heart Attack:
-aside: Sheer heart attack не имеет слабостей
 
 мой любимый котик:
 ascii арт
