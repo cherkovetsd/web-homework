@@ -13,7 +13,7 @@ if (document.location.pathname.indexOf("index.html") != -1) {
             button_number = 2;
             break;
     }
-} else {
+} else if (document.location.pathname.indexOf("gallery.html") != -1) {
     switch (hash) {
         case "":
             button_number = 3;
@@ -31,5 +31,8 @@ if (document.location.pathname.indexOf("index.html") != -1) {
             button_number = 7;
             break;
     }
+} else {
+    button_number = 8;
 }
+console.log(document.getElementsByClassName("button")[8].textContent)
 document.getElementsByClassName("button")[button_number].style.color = "black";
