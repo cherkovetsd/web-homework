@@ -39,11 +39,36 @@
     color:#552870;
 }
 
-.menu {
+.menu_header {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     background-color:purple;
     color:yellow;
+}
+
+.menu_horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu_vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    margin: 5px 15px 5px 15px;
+    border-style: outset;
+    border-width: 2.5px;
+    padding: 2.5px;
+    border-color: black;
+    background: rebeccapurple;
+    color:yellow;
+}
+
+.button:hover {
+    background: #aad78f;
 }
 
 #cat pre {
@@ -104,3 +129,7 @@
     }
 }
 
+.loading_bar {
+    color: #552870;
+    background: rebeccapurple;
+}
